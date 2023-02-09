@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+
 * {
   background-color: hsl(30, 38%, 92%);
+font-family: 'Montserrat', sans-serif;
+  
 }
 .container {
   display: flex;
@@ -10,10 +15,10 @@
 .box {
   display: flex;
   flex-direction: row;
-  width: 22%;
+  width: 25%;
 }
 .image-container {
-  width: 50%;
+  width: 60%;
   text-align: center;
 }
 .image {
@@ -25,7 +30,9 @@
   width: 50%;
   text-align: center;
   background-color: hsl(0, 0%, 100%);
-  border-radius:  0px 25px 25px 0px
+  border-radius:  0px 25px 25px 0px;
+  padding: 20px;
+  text-align: left;
 }
 
 .info-container h6,
@@ -38,6 +45,7 @@
   justify-content: center;
   align-items: center;
   background-color: hsl(0, 0%, 100%);
+  float: left;
 }
 
 .original-price {
@@ -60,4 +68,12 @@ button {
   width: 80%;
   height: 9.2%;
   border-radius: 10px;
+}
+
+#font-M{
+    font-family: 'Fraunces', serif;
+}
+
+h2 {
+    font-size: 32px;
 }
